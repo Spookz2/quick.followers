@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Screen with Banner</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: #000000; /* Black background */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; /* Position the banner at the bottom */
+    }
+
+    .banner {
+      background-color: #808080; /* Gray banner */
+      width: 100%;
+      height: 50px; /* Height of the banner */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Empty body for black screen -->
+  
+  <!-- Banner at the bottom -->
+  <div class="banner">
+    Grey Banner at the Bottom
+  </div>
+
+</body>
+</html>
