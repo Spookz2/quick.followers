@@ -28,9 +28,19 @@
       z-index: 10;
     }
 
+    .updates-text {
+      position: absolute;
+      top: 80px;
+      width: 100%;
+      text-align: center;
+      font-size: 1.5rem;
+      margin: 10px 0;
+      z-index: 10;
+    }
+
     .boxes {
       position: absolute;
-      top: 100px;
+      top: 120px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -109,10 +119,16 @@
 </head>
 <body>
   <div class="header-text">Quick Followers</div>
+  <div class="updates-text">Updates!</div>
   <div class="boxes">
     <div class="box"></div>
   </div>
-  <button class="continue-button">Continue</button>
+
+  <!-- Continue button with link to index.html2 -->
+  <a href="index.html2">
+    <button class="continue-button">Continue</button>
+  </a>
+
   <div class="progress-container">
     <div class="progress-text">200 orders have been bought</div>
     <div class="progress-bar">
